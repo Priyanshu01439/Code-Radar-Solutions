@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(3)
+int main()
 {
     char name[10];
     int age ;
