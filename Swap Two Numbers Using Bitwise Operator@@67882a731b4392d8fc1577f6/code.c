@@ -5,6 +5,6 @@ int main() {
     a=a^b;
     b=a^b;
     c=a^b;
-    printf("%d %d",,a,b);
+    printf("%d %d",a,b);
     return 0;
 }
