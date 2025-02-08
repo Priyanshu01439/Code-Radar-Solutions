@@ -1,4 +1,4 @@
-  #include <stdio.h>
+#include <stdio.h>
 int main()
 {
     int a,b;
@@ -7,5 +7,5 @@ int main()
     printf("Yes");
     else
     printf("No");
-    return 0;
+    return 0;
 }
