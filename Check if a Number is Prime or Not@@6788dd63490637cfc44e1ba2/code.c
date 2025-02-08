@@ -1,12 +1,12 @@
- #include <stdio.h>
+#include <stdio.h>
 int main()
 {
-    int a;
-    scanf("%d",&a);
-    if (a>=1 && a<=100)
-    printf("In Range");
+    int a,b,c;
+    scanf("%d%d",&a,&b);
+    c=b*b;
+    if (a==c)
+    printf("Yes");
     else
-    printf("Out of Range");
+    printf("No");
     return 0;
-
 }
