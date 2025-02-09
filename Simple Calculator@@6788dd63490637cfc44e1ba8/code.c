@@ -1,23 +1,29 @@
 #include <stdio.h>
-int mainI()
-{
+int main() {
     int a,b;
     char c;
-    scanf("%d %d %c", &a, &b, &c);
-    if (c == '+'){
-        printf("%d",a + b);
-    } else if (c == '-') {
-        printf("%d", a - b);
-    } else if (c == '*') {
-        printf("%d", a * b);
-    } else if (c == '/') {
-        if(b != 0) {
-            printf("%d", a / b);
-        } else {
-            printf("error");
+    scanf("%d\n",&a);
+    scanf("%d\n",&b);
+    scanf("%c",&c);
+    switch(c){
+        case '+':
+        printf("%d\n",a+b);
+        break;
+        case'-':
+        printf("%d\n",a-b);
+        break;
+        case '*':
+        printf("%d\n",a*b);
+        break;
+        case '/':
+        if (b==0){
+            printf("error\n");
+        }else{
+            printf("%d\n",a/b);
         }
-    } else {
-        printf("Invalid operator");
+        break;
+        default:
+        printf("error\n");
     }
     return 0;
 }
