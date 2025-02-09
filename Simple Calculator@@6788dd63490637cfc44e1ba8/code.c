@@ -13,8 +13,10 @@ int mainI()
     } else if (c == '/') {
         if(b != 0) {
             printf("%d", a / b);
+        } else {
+            printf("error");
         }
-    }else{
+    } else {
         printf("Invalid operator");
     }
     return 0;
