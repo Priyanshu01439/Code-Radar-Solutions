@@ -5,6 +5,7 @@ int isPrime(int t)
         if(t%i==0)
         {
             return 0;
+            break;
         }
         else
         {
