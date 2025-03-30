@@ -4,11 +4,11 @@ int selectionSort(int arr,int n)
     {
         for(int j=i+1;j<n;j++)
         {
-            if (a[j]<a[i])
+            if (arr[j]<arr[i])
             {
-                    temp=a[i];
-                    a[i]=a[j];
-                    a[j]=temp;
+                    temp=arr[i];
+                    arr[i]=arr[j];
+                    arr[j]=temp;
             }
         }
     }
@@ -19,6 +19,6 @@ int printArray(int arr,int n)
 {
     for(int i=0;i<n;i++)
     {
-        printf("%d ",a[i]);
+        printf("%d ",arr[i]);
     }
 }
