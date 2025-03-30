@@ -1,4 +1,4 @@
-int selectionSort(int arr,int n)
+int selectionSort(int arr[],int n)
 {    int temp;
     for(int i=0;i<n;i++)
     {
@@ -15,7 +15,7 @@ int selectionSort(int arr,int n)
 }
 
 
-int printArray(int arr,int n)
+int printArray(int arr[],int n)
 {
     for(int i=0;i<n;i++)
     {
