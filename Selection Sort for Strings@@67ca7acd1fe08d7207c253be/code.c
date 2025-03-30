@@ -5,11 +5,11 @@ void selectionSort(char arr[][100],int n)
      {
         for (int j=i+1;j<n;j++)
         {
-            if(arr[j][100]<arr[i][100])
+            if(arr[j]<arr[i])
             {
-                temp=arr[i][100];
-                arr[i][100]=arr[j][100];
-                arr[j][100]=temp;
+                temp=arr[i];
+                arr[i]=arr[j];
+                arr[j]=temp;
             }
         }
      }
